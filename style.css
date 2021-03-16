@@ -1,0 +1,50 @@
+body{
+	margin: 0px;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1{
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	border-right: 2px solid pink;
+	border-top: 2px solid pink;
+	border-left: 2px solid pink;
+	padding: 10px;
+	height: 50px;
+	margin: auto;
+	/*-mox-box-shadow: 4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow:4px 4px 5px #888888;*/
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+
+}
+
+img {
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+
+}
+
+img:hover {
+	transform: scale(1.1);
+	/*Check out animation feauture*/
+}
+
+/*Make sure that each browser is able to support each CSS support feature.*/
+/*May need to use a prefix for certain types of browsers.
+Use the W3 schools reference link
+"Can I use?"" Type in the property and it will show you what percentage of population
+can or can't see the property within the browser*/
+/*flexbox is super nice!!! especially for wrapping, aligning, spacing etc.*/
